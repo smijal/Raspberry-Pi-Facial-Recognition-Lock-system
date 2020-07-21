@@ -3,7 +3,8 @@
 # Uses OpenCV libraries for face detection, LBPH Face Recognizer. Another options were using EigenFaces, FisherFaces or manually build a model.
 # Idea is taken from Muhammad Aqib https://maker.pro/raspberry-pi/projects/how-to-create-a-facial-recognition-door-lock-with-raspberry-pi.
 # Some chunks of are code are taken from the original author. 
-# Most of the code is edited and adjusted for this project. 
+# Most of the code is edited and adjusted for this project.
+# Code might require editing to work, since it is missing mp3 files. Comment them out or generate your own files with voice_generator.py
 #
 # Hardware used: 
 # 1. Raspberry Pi - any version (requires audio jack for voice prompts/ can be taken out)
