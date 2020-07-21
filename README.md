@@ -8,11 +8,11 @@
 # Hardware used: 
 # 1. Raspberry Pi - any version (requires audio jack for voice prompts/ can be taken out)
 # 2. Raspberry Pi camera module
-# 3. Solenoid lock (secure)/Servo (for demonstration)
-# 4. LEDs
-# 5. Push buttons for input
-# 6. Output speaker
-# 7. Additional >=6V power supply for the servo / lock
+# 3. Solenoid lock (secure)/Servo (for demonstration) (GPIO PIN 18)
+# 4. LEDs (Red=GPIO PIN 23, Green=GPIO PIN 24)
+# 5. Push buttons for input ("Help/Main menu switch = GPIO PIN 12, "Unlock/Start recording = GPIO PIN 25)
+# 6. Output speaker (Audio jack)
+# 7. Additional >=6V power supply for the servo / lock (external)
 # 8. Wires 
 
 # Scripts description:
