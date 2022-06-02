@@ -17,11 +17,11 @@ Code might require editing to work, since it is missing mp3 files. Comment them 
 8. Wires 
 
 ### Scripts description:
-script_executor.py -> script to run on startup, waits for trigger events (GPIO high/ switch press to execute the right command)
-face_detector.py -> creates directories of the autorized person saves pictures of his/her face
-face_recognizer.py -> reads saved images, creates labels for each person/ trains a LBPH model and saves it as a .yml file
-final.p -> loads the trained data/labels , starts the recording and waits for face match, trigers the servo/lock to open for few seconds and close back
-voice_generator.py -> to generate prerecorded messages for audio user prompts
+- script_executor.py -> script to run on startup, waits for trigger events (GPIO high/ switch press to execute the right command)
+- face_detector.py -> creates directories of the autorized person saves pictures of his/her face
+- face_recognizer.py -> reads saved images, creates labels for each person/ trains a LBPH model and saves it as a .yml file
+- final.py -> loads the trained data/labels , starts the recording and waits for face match, trigers the servo/lock to open for few seconds and close back
+- voice_generator.py -> to generate prerecorded messages for audio user prompts
 
 ### Other ideas and conclusion:
 To be very reliable and actually used as a lock system, needs another option in case facial recognition fails.
